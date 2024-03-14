@@ -1,0 +1,1 @@
+*{box-sizing:border-box;padding:0;margin:0}.app{height:100vh;width:100vw;display:flex;flex-direction:column;justify-content:}.header{background-color:#00f;height:20vh;width:100%}#board{left:50%;top:50%;transform:translate(-50%,-50%);position:absolute;border:solid black 5px}.player{height:100px;width:100px;background-color:#000;position:absolute;bottom:0;margin-left:450px}
