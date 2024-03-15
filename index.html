@@ -6,24 +6,42 @@
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Boiler</title>
-  <script type="module" crossorigin src="./assets/index-Q3zwPcBr.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BnAaNekV.css">
+  <script type="module" crossorigin src="./assets/index-X776MlVi.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dddv1nbG.css">
 </head>
 
 <body>
   <div class="app">
+    <div class="rules">
+      <h1>FlappyType or TypingBird..</h1>
+      <h3>Anyway.. I enjoy playing typing Games and Playing flappyBird
+        so I combined the two. More info on the game on my GitHub.Maybe i'll add
+        leaderboards and logins oneday, For now just have fun with the beta ;)
+      </h3>
+      <h1>Rules</h1>
+      <ol>
+        <li>Normal Flappy Bird rules, dont hit the pole! Spacebar to jump</li>
+        <li>Typing rules , Type the word before it passes the bird</li>
+        <li>Spaces before and between words will not be counted :)</li>
+        <li>Points are awarded for each word typed correctly</li>
+      </ol>
+      <button id='play'> PLAY</button>
+
+    </div>
     <div class="header">
-      <div class="displayScore">0</div>
-      <div class="inputDisplay">
+      <div class="rulesBtn">Rules</div>
+      <div class="gameInfo">
+        <div class="displayScore">0</div>
         <form action="submit" id="submit">
           <input class="input" type="text">
         </form>
         <div id="start">Start</div>
+        <div class="messageBox">Whenever ur Ready</div>
       </div>
+      <div class="info">info</div>
     </div>
 
-    <canvas id="board">
-    </canvas>
+    <canvas id="board"></canvas>
 
   </div>
 </body>
